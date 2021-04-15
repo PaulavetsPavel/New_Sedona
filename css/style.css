@@ -688,8 +688,16 @@ body._touch .menu__link {
     border-bottom: none;
   }
 
+  .booking {
+    padding: 53px 20px 58px 20px;
+  }
+
   .booking__subtitle {
     font-size: 30px;
+  }
+
+  .booking__text {
+    padding: 33px 5px 40px 5px;
   }
 
   .booking__btn {
