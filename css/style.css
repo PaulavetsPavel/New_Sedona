@@ -454,11 +454,18 @@ body._touch .menu__link {
   border-bottom: 1px solid #e5e5e5;
 }
 
-.gallery__image img {
+.gallery__image p {
+  height: 280px;
+  overflow: hidden;
+}
+
+.gallery__image p img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
 }
 
 .gallery__video {
@@ -806,7 +813,8 @@ body._touch .menu__link {
   }
 
   .gallery__item:first-child {
-    flex: 1 0 100%;
+    flex: 0 0 100%;
+    overflow: hidden;
   }
 
   .gallery__item figcaption {
@@ -819,6 +827,10 @@ body._touch .menu__link {
 
   .gallery__item:nth-child(2n + 2) figcaption {
     background-color: #eaeaea;
+  }
+
+  .gallery__image p {
+    height: 100%;
   }
 
   .video__heading {
