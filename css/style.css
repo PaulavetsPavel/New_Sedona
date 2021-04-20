@@ -927,7 +927,7 @@ body._touch .menu__link {
   }
 
   .intro__image {
-    background: url(../img/intro-triangle.svg) center bottom no-repeat, url(../img/back-desktop.jpg) center -48px no-repeat;
+    background: url(../img/intro-triangle.svg) center bottom no-repeat, url(../img/back-desktop.jpg) center -47px no-repeat;
   }
 }
 
