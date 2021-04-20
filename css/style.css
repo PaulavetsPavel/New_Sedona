@@ -925,10 +925,6 @@ body._touch .menu__link {
   .intro__image img.intro__desktop {
     display: none;
   }
-
-  .intro__image {
-    background: url(../img/intro-triangle.svg) center bottom no-repeat, url(../img/back-desktop.jpg) center -47px no-repeat;
-  }
 }
 
 @media (max-width: 767px) {
@@ -1022,8 +1018,3 @@ body._touch .menu__link {
 }
 
 .webp .intro__image{ background: url(../img/intro-triangle.svg) center bottom no-repeat, url(../img/back-desktop.webp) center top no-repeat; }
-
-@media (max-width: 768px){
-
-  .webp .intro__image{ background: url(../img/intro-triangle.svg) center bottom no-repeat, url(../img/back-desktop.webp) center -48px no-repeat; }
-}
