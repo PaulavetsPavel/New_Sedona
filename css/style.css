@@ -299,8 +299,8 @@ body._touch .menu__link {
 }
 
 .intro__image {
-  background: url(../img/intro-triangle.svg) center bottom no-repeat, url(../img/back-desktop.jpg) center top no-repeat;
-  padding: 78px 0px 90px 0px;
+  background: url(../img/intro-triangle.svg) center 475px no-repeat, url(../img/back-desktop.jpg) center top no-repeat;
+  padding: 78px 0px 88px 0px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -308,8 +308,7 @@ body._touch .menu__link {
 }
 
 .intro__content {
-  margin: -5px 17px 80px 17px;
-  padding: 60px 0px 0px 0px;
+  margin: 60px 17px 80px 17px;
 }
 
 .intro__title {
@@ -1018,4 +1017,4 @@ body._touch .menu__link {
   }
 }
 
-.webp .intro__image{ background: url(../img/intro-triangle.svg) center bottom no-repeat, url(../img/back-desktop.webp) center top no-repeat; }
+.webp .intro__image{ background: url(../img/intro-triangle.svg) center 475px no-repeat, url(../img/back-desktop.webp) center top no-repeat; }
