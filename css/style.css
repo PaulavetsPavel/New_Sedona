@@ -270,6 +270,10 @@ body._touch .menu__link {
   color: rgba(255, 255, 255, 0.3);
 }
 
+.visualy__hidden {
+  display: none;
+}
+
 .title {
   font-size: 21px;
   font-weight: 700;
