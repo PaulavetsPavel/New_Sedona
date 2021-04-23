@@ -550,6 +550,158 @@ body._touch .menu__link {
      object-position: center;
 }
 
+.review__list {
+  display: flex;
+  flex-direction: column;
+}
+
+.review__list > li {
+  border-top: 1px solid #e5e5e5;
+}
+
+.review__container {
+  padding: 20px;
+}
+
+.review__send {
+  margin: 30px 20px 40px 0px;
+}
+
+.review__button {
+  padding: 16px 0px 11px 0px;
+  text-align: center;
+  background-color: #81b3d2;
+  color: #fff;
+  width: 100%;
+  font-size: 21px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.review__note {
+  margin: 0px 0px 15px 0px;
+  text-align: right;
+}
+
+.user__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.user__item {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0px 0px 0px;
+}
+
+.user__item > p {
+  flex: 1 1 auto;
+}
+
+.user__item > input {
+  width: 100%;
+  flex: 1 1 auto;
+  margin: 0px 0px 0px 20px;
+}
+
+.user__field {
+  background-color: #f2f2f2;
+  padding: 15px 0px 11px 22px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.contacts__body {
+  margin: 30px 0px 0px 0px;
+}
+
+.contacts__subtitle {
+  margin: 20px 0px;
+  text-align: left;
+  padding: 0px 0px 0px 22px;
+}
+
+.contacts__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contacts__field {
+  width: 100%;
+  flex: 1 1 auto;
+  background-color: #f2f2f2;
+  padding: 15px 0px 11px 22px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.contacts__button {
+  font-size: 21px;
+  padding: 13px 20px 9px 20px;
+  background-color: #e6e6e6;
+}
+
+.effect__item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 20px 0px 0px 0px;
+}
+
+.effect__item > span {
+  flex: 1 1 auto;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0px 0px 0px 20px;
+}
+
+.effect__label {
+  flex: 0 0 49px;
+  height: 49px;
+}
+
+.places__body {
+  margin: 30px 0px 0px 0px;
+}
+
+.places__item {
+  margin: 10px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.places__item > span {
+  flex: 1 1 auto;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0px 0px 0px 20px;
+}
+
+.places__label {
+  flex: 0 0 45px;
+  height: 45px;
+  background-color: #000;
+}
+
+.emotion__title {
+  margin: 0px 0px 20px 0px;
+}
+
+.emotion__body {
+  margin: 40px 0px 50px 0px;
+}
+
+.emotion__text {
+  background-color: #f2f2f2;
+  width: 100%;
+  height: 160px;
+  font-size: 18px;
+}
+
 .footer__content {
   padding: 23px 0px;
 }
@@ -875,6 +1027,160 @@ body._touch .menu__link {
     height: 500px;
   }
 
+  .review__page {
+    padding: 0px 60px;
+  }
+
+  .review__list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+  }
+
+  .review__list > li {
+    border-top: none;
+  }
+
+  .review__list > li:first-child {
+    border-left: 1px solid #e5e5e5;
+  }
+
+  .review__container {
+    padding: 0px;
+  }
+
+  .review__user {
+    flex: 1 1 50%;
+    order: 2;
+  }
+
+  .review__contacts {
+    flex: 1 1 100%;
+    order: 3;
+  }
+
+  .review__effect {
+    flex: 1 1 50%;
+    order: 1;
+  }
+
+  .review__places {
+    flex: 1 1 100%;
+    order: 4;
+  }
+
+  .review__emotion {
+    flex: 1 1 100%;
+    order: 5;
+  }
+
+  .review__send {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .review__button {
+    flex: 0 1 50%;
+    order: 1;
+  }
+
+  .review__note {
+    flex: 0 1 50%;
+    order: 2;
+    text-transform: uppercase;
+    margin: 0px;
+  }
+
+  .user__title {
+    padding: 0px 0px 0px 60px;
+    text-align: left;
+  }
+
+  .user__body {
+    padding: 0px 0px 0px 60px;
+    text-align: left;
+  }
+
+  .contacts__title {
+    margin: 60px 0px 0px 0px;
+    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .contacts__title::after,
+  .contacts__title::before {
+    content: "";
+    flex: 0 0 25%;
+    height: 1px;
+    background-color: #dbdbdb;
+  }
+
+  .effect__title {
+    text-align: left;
+  }
+
+  .effect__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .effect__item {
+    flex: 1 1 auto;
+  }
+
+  .places__title {
+    margin: 60px 0px 0px 0px;
+    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .places__title::after,
+  .places__title::before {
+    content: "";
+    flex: 0 0 25%;
+    height: 1px;
+    background-color: #dbdbdb;
+  }
+
+  .places__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .places__item {
+    flex: 0 0 35%;
+  }
+
+  .places__item:nth-child(odd) {
+    padding: 0px 0px 0px 5.5%;
+  }
+
+  .emotion__title {
+    margin: 60px 0px 20px 0px;
+    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .emotion__title::after,
+  .emotion__title::before {
+    content: "";
+    flex: 0 0 25%;
+    height: 1px;
+    background-color: #dbdbdb;
+  }
+
   .footer__content {
     display: flex;
     justify-content: space-around;
@@ -922,6 +1228,60 @@ body._touch .menu__link {
   .like__btn {
     color: #fff;
     opacity: 1;
+  }
+
+  .review__page {
+    padding: 0px 120px;
+  }
+
+  .contacts__body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .contacts__subtitle {
+    flex: 0 1 auto;
+    margin: 20px 50px 20px 0px;
+    padding: 0px;
+  }
+
+  .contacts__subtitle > span {
+    display: none;
+  }
+
+  .contacts__phone {
+    flex: 1 1 50%;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .contacts__mail {
+    flex: 1 1 50%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px 0px 30px;
+  }
+
+  .contacts__field {
+    flex: 1 0 76%;
+  }
+
+  .contacts__button {
+    flex: 1 1 auto;
+  }
+
+  .places__list {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .places__item {
+    flex: 0 0 20%;
+  }
+
+  .places__item:nth-child(odd) {
+    padding: 0px;
   }
 }
 
